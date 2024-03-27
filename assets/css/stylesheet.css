@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    color: #498ee7;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     }
+  
+  canvas {
+    border: 5px solid #498ee7;
+  }
+  .title{
+    color: white;
+    position: absolute;
+    top: 80px;
+    font-family: "Workbench", sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.15em;
+    user-select: none;
+  }
+  .score{
+    user-select: none;
+    font-size: 35px;
+    font-family: "Workbench", sans-serif;
+  }
